@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6b9e9ac.css",
-    "main.js": "/static/js/main.38f480fe.js",
+    "main.js": "/static/js/main.bd2433f7.js",
     "static/media/Flow1.png": "/static/media/Flow1.3eadb8f8eb17f18348c9.png",
     "static/media/MapListScreen.png": "/static/media/MapListScreen.d45fb641d135a4d9143f.png",
     "static/media/ListScreen.png": "/static/media/ListScreen.2739de4f2b312ee59594.png",
@@ -9,7 +9,7 @@
     "static/media/Final_design_light.png": "/static/media/Final_design_light.0fcb1649db812f9421e0.png",
     "static/media/Final_design_dark.png": "/static/media/Final_design_dark.2311d4cf2ab914b63fc7.png",
     "static/media/MoreInfoScreen.png": "/static/media/MoreInfoScreen.86d8c22801576cfd7adc.png",
-    "static/media/Skumring_hoved.svg": "/static/media/Skumring_hoved.d4136b8f9d4ab0e0a59e724125a19294.svg",
+    "static/media/Skumring_hoved.svg": "/static/media/Skumring_hoved.0705ae49a2d953fda4787c0c32754e3c.svg",
     "static/media/Experis_onsker_hovedbilde.png": "/static/media/Experis_onsker_hovedbilde.4ba0f4a651220e73e169.png",
     "static/media/anna.jpg": "/static/media/anna.b820b215f1f00f4a85e0.jpg",
     "static/media/InformationPage.png": "/static/media/InformationPage.f9c861b63ae4c5016f9c.png",
@@ -46,7 +46,7 @@
     "static/media/DesignVisning.png": "/static/media/DesignVisning.b6ad7feb923091dec52e.png",
     "static/media/MyLocations_add.png": "/static/media/MyLocations_add.47e136e556977381c684.png",
     "static/media/MyLocations.png": "/static/media/MyLocations.2e608fa4950316c29f4a.png",
-    "static/media/PresentasjonsmodusNavigering.svg": "/static/media/PresentasjonsmodusNavigering.9d3f6b8c47d779d680ecc236a421705f.svg",
+    "static/media/PresentasjonsmodusNavigering.svg": "/static/media/PresentasjonsmodusNavigering.8e51eb1887e9f9c0940f34cecbb0d39c.svg",
     "static/media/OpptakSkjerm.png": "/static/media/OpptakSkjerm.7a47a9718b2d1371ff52.png",
     "static/media/Skissering_sangtekst.png": "/static/media/Skissering_sangtekst.4faeaaa7328e8274449a.png",
     "static/media/11.png": "/static/media/11.27842b893b4ee63c1be1.png",
@@ -81,10 +81,10 @@
     "static/media/arrow_upward_skumring.svg": "/static/media/arrow_upward_skumring.625797f7f484aec96246b3e24aaf92b4.svg",
     "static/media/Arrow 3.svg": "/static/media/Arrow 3.74f0824027ae9d73306a7a70deb2f77e.svg",
     "main.e6b9e9ac.css.map": "/static/css/main.e6b9e9ac.css.map",
-    "main.38f480fe.js.map": "/static/js/main.38f480fe.js.map"
+    "main.bd2433f7.js.map": "/static/js/main.bd2433f7.js.map"
   },
   "entrypoints": [
     "static/css/main.e6b9e9ac.css",
-    "static/js/main.38f480fe.js"
+    "static/js/main.bd2433f7.js"
   ]
 }
