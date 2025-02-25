@@ -2,7 +2,7 @@ import React from "react";
 import "./project.css";
 import "./gridcontainers.css";
 
-//import ExperisWishes from "../../assets/projectAssets/project4/Experis_onsker_hovedbilde.svg";
+import ExperisWishes from "../../assets/projectAssets/project4/Experis_onsker_forside.png";
 
 import ZoomableImageGallery from "../image/ZoomableImageGallery";
 import Arrow from "../../assets/projectAssets/allProjects/Arrow 3.svg";
@@ -12,13 +12,8 @@ import { Link } from "react-router-dom";
 const Project4 = () => {
   return (
     <div id="top">
-      {/*Top section with image*/}
       <div className="top_section">
-        {/*
         <img src={ExperisWishes} alt="Dissimilis First" className="top_image" />
-        */}
-
-        <img alt="Dissimilis First" className="top_image" />
 
         <div className="button_container">
           <button
@@ -210,7 +205,7 @@ const Project4 = () => {
           </p>
 
           {/* Brukerhistorie plassert utenfor grid */}
-          <div className="text_centeralign grid_placement2">
+          <div className="text_centeralign grid_placement2 user_story_padding">
             <p className="text_very_small">Brukerhistorie</p>
             <p className="text_italic">
               Som bruker av Dissimilis fargenotasjon kan jeg gi tilbakemelding
@@ -250,33 +245,38 @@ const Project4 = () => {
         </div>
 
         {/* Resterende innhold i grid */}
-        <div className=" _">
-          <div className="grid_placement2  padding_sectioning"></div>
-
-          <div className="padding_sectioning">
+        <div className=" project_container">
+          <div className="padding_sectioning_headlines">
             <h1 className="level1_headlines">Prototyping og testing</h1>
           </div>
 
-          <p className="body_text">
-            Vi prototypet flere ulike forslag før vi valgte ut to design vi
-            ønsket å teste med brukerne.
-          </p>
+          <div className="padding_sectioning_headlines">
+            <p className="body_text">
+              Vi prototypet flere ulike forslag før vi valgte ut to design vi
+              ønsket å teste med brukerne.
+            </p>
+          </div>
+        </div>
+        <div className="picture_inline picture_padding_top">
+          <ZoomableImageGallery id="20" className=" image_center" />
         </div>
 
-        <ZoomableImageGallery id="20" className="project_image" />
-        <div className=" _">
+        <div className=" project_container project-margin-between-items">
           <h2 className="level2_headlines">Geriljatesting</h2>
 
           <p className="body_text">
             Vi valgte ut to design som vi ønsket å teste med brukere.
             Prototypene var interaktive slik at vi enkelt kunne se hvilken flyt
             som fungerte best og hvorfor. Til sammen geriljatestet vi med 11
-            personer på Exper is-kontoret.
+            personer på Experis-kontoret.
           </p>
         </div>
-        <ZoomableImageGallery id="21" className="project_image" />
-
-        <ZoomableImageGallery id="22" className="project_image" />
+        <div className="picture_inline picture_padding_top">
+          <ZoomableImageGallery id="21" className=" image_center" />
+        </div>
+        <div className="picture_padding_top">
+          <ZoomableImageGallery id="22" className="project_image" />
+        </div>
 
         <div className="  project-margin-between-items">
           {/*NØKKELFUNN-ANALYSE*/}
@@ -291,7 +291,7 @@ const Project4 = () => {
           </div>
 
           {/*Grid with the different findings*/}
-          <div className="project_container">
+          <div className="container">
             <div className="grid-container5">
               <div className="number_styling">01</div>
               <div className="number_styling">02</div>
@@ -338,30 +338,38 @@ const Project4 = () => {
                 <img src={Arrow} alt="Arrow" className="project_image" />
               </div>
 
-              <div className="bold_text">
+              <div>
                 Begge alternativene var sterke kandidater, kun små preferanser
                 som skilte dem fra hverandre
               </div>
-              <div className="bold_text">
+              <div>
                 Fokus på å kun ha nødvendig tekst. Bør ha forskjellige
                 overskrifter for å skille innhold fra hverandre
               </div>
-              <div className="bold_text">
+              <div>
                 Bør inkorporere flere steg i tilbakemeldingsskjemaet for å nudge
                 brukeren til å fullføre{" "}
               </div>
-              <div className="bold_text">
+              <div>
                 Inkorporering av flere steg i tilbakemeldingsskjemaet gir
                 brukeren en trygghet i at tilbakemeldingen blir tatt tak i
                 raskere{" "}
               </div>
             </div>
           </div>
-          <h2 className="level2_headlines">Endelig design</h2>
-          <ZoomableImageGallery id="23" className="project_image" />
+
+          <div className=" project_container">
+            <div className="padding_sectioning_headlines">
+              <h1 className="level1_headlines">Endelig design</h1>
+            </div>
+          </div>
+          <div className="picture_inline picture_padding_top">
+            <ZoomableImageGallery id="23" className=" image_center" />
+          </div>
         </div>
 
-        {/*PRESENTASJONSMODUS*/}
+        {/*LANDINGSSIDE*/}
+
         <section id="Landingsside" className="theme_container">
           <div className="heading_with_arrow">
             <h2 className="level3_headlines">02. Landingsside</h2>
@@ -376,7 +384,7 @@ const Project4 = () => {
           <div className="horizontal_line"> </div>
         </section>
 
-        <div className="_">
+        <div className="project_container">
           <div className="padding_sectioning">
             <h1 className="level1_headlines">Bakgrunn</h1>
           </div>
@@ -392,22 +400,29 @@ const Project4 = () => {
           </p>
 
           {/* Brukerhistorie plassert utenfor grid */}
-          <div className="text_centeralign grid_placement2">
-            <p className="text_very_small">Mål</p>
-            <p className="text_italic">
-              Hvordan kan vi få brukeren til å forstå hensikten med appen før de
-              logger inn?
-            </p>
+          <div className="grid_placement2">
+            <div className="picture_padding_bottom">
+              <div className=" text_centeralign user_story_padding">
+                <p className="text_very_small">Mål</p>
+                <p className="text_italic">
+                  Hvordan kan vi få brukeren til å forstå hensikten med appen
+                  før de logger inn?
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
         {/* Resterende innhold i grid */}
-        <div className=" _">
-          <div className="grid_placement2  padding_sectioning"></div>
-          <div className="padding_sectioning">
-            <h1 className="level1_headlines">Øvelsene</h1>
-          </div>
-          Øvelsene
+        <div className=" project_container">
+          <h1 className="level1_headlines">Øvelsene</h1>
+
+          <p className="body_text">
+            Deltakerne fikk utforske sin kreative side ved å først varme opp for
+            å så gå over til lavoppløselig prototyping. Disse skissene ble
+            utgangspunktet for det endelige designet til landingssiden.
+          </p>
+
           {/*Grid with the different findings*/}
           <div className="grid-container2 grid_placement2">
             <div className="item-1-container2 number_styling">01</div>
@@ -431,17 +446,18 @@ const Project4 = () => {
             </div>
             <div className="item-3 number_styling grid_placement1">04</div>
             <div className="item item-6 body_text grid_placement2">
-              iLavoppløselig prototyping
+              Lavoppløselig prototyping
             </div>
           </div>
         </div>
 
-        <div className="_  project-margin-between-items">
-          <div className="padding_sectioning">
-            <h2 className="level2_headlines">Bilder fra workshopen</h2>
+        <div className=" project_container padding_sectioning_headlines">
+          <h2 className="level2_headlines">Bilder fra workshopen</h2>
+          <div className="picture_padding_bottom">
+            <ZoomableImageGallery id="24" />
           </div>
-          <ZoomableImageGallery id="24" />
         </div>
+
         {/*MÅ ORDNE LINK TIL PRESENTASJONEN!!! */}
         <div className="button_container">
           <Link to="/project4" className="button-link">
@@ -449,20 +465,26 @@ const Project4 = () => {
           </Link>
         </div>
 
-        <div className=" _  project-margin-between-items">
-          <h2 className="level2_headlines">
-            Fra Crazy Eight til low-fidelity prototyping
-          </h2>
+        <div className=" project_container">
+          <div className="padding_sectioning_headlines">
+            <h1 className="level1_headlines">
+              Fra Crazy Eight til lavoppløselig prototyping
+            </h1>
+          </div>
         </div>
-        <div className="grid-container2-image">
+        <div className="picture_inline picture_padding_top grid-container2-image">
           <ZoomableImageGallery id="25" className="project_image" />
           <ZoomableImageGallery id="26" className="project_image" />
         </div>
 
-        <div className=" _  project-margin-between-items">
-          <h2 className="level2_headlines">Endelig design</h2>
+        <div className=" project_container">
+          <div className="padding_sectioning_headlines">
+            <h1 className="level1_headlines">Endelig design</h1>
+          </div>
         </div>
-        <ZoomableImageGallery id="27" className="project_image" />
+        <div className="picture_inline picture_padding_top">
+          <ZoomableImageGallery id="27" className="project_image" />
+        </div>
       </div>
 
       <div className="button_container theme_container">

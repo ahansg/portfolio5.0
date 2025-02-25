@@ -25,7 +25,7 @@ import Skissering_sangtekst from "../../assets/projectAssets/project1/Skissering
 import Videreutvikling_sangtekst from "../../assets/projectAssets/project1/Videreutvikling_sangtekst.png";
 
 /*PROJECT 4 */
-import ExperisWishes from "../../assets/projectAssets/project4/Experis_onsker_hovedbilde.png";
+import ExperisWishes from "../../assets/projectAssets/project4/Experis_onsker_forside.png";
 import Dissimilis from "../../assets/projectAssets/project4/dissimilis.jpg";
 import Geriljatesting from "../../assets/projectAssets/project4/Geriljatesting.png";
 import GeriljaBilde from "../../assets/projectAssets/project4/GeriljaBilde.png";
