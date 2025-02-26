@@ -430,7 +430,7 @@ const Project2 = () => {
             High- fidelity prototypen som vi kunne basere det endelige designet
             i appen på. Her var det spesielt fokus på tilbakemeldingene fra
             brukertestingen, samt å sjekke at alle farger tilfredsstilte krav
-            til AAA for kontrast og at teksten var lett lesbar og forståelig.
+            til AAA for kontrast og at teksten var lett lesbar og forståelig
           </p>
           <h1 className="level1_headlines">Endelig design - mørkt tema</h1>
         </div>
