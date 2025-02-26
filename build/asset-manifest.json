@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6b9e9ac.css",
-    "main.js": "/static/js/main.bd2433f7.js",
+    "main.css": "/static/css/main.b92dc555.css",
+    "main.js": "/static/js/main.4c146625.js",
     "static/media/Flow1.png": "/static/media/Flow1.3eadb8f8eb17f18348c9.png",
     "static/media/MapListScreen.png": "/static/media/MapListScreen.d45fb641d135a4d9143f.png",
     "static/media/ListScreen.png": "/static/media/ListScreen.2739de4f2b312ee59594.png",
     "static/media/HomeScreen.png": "/static/media/HomeScreen.e19d6a87d89cb90e43a8.png",
-    "static/media/Final_design_light.png": "/static/media/Final_design_light.0fcb1649db812f9421e0.png",
-    "static/media/Final_design_dark.png": "/static/media/Final_design_dark.2311d4cf2ab914b63fc7.png",
     "static/media/MoreInfoScreen.png": "/static/media/MoreInfoScreen.86d8c22801576cfd7adc.png",
     "static/media/Skumring_hoved.svg": "/static/media/Skumring_hoved.0705ae49a2d953fda4787c0c32754e3c.svg",
-    "static/media/Experis_onsker_hovedbilde.png": "/static/media/Experis_onsker_hovedbilde.4ba0f4a651220e73e169.png",
     "static/media/anna.jpg": "/static/media/anna.b820b215f1f00f4a85e0.jpg",
     "static/media/InformationPage.png": "/static/media/InformationPage.f9c861b63ae4c5016f9c.png",
     "static/media/Flyt_2.png": "/static/media/Flyt_2.3fcea5b7807f40738671.png",
@@ -20,20 +17,24 @@
     "static/media/brukertest.png": "/static/media/brukertest.e36bccf11e2bb1ceda57.png",
     "static/media/Group_interview.png": "/static/media/Group_interview.3f25c22df3871a00ce5e.png",
     "static/media/PresModus.svg": "/static/media/PresModus.1c60c6924c25a94e3b6378fb1fec0a68.svg",
+    "static/media/Flyt2.png": "/static/media/Flyt2.281300b631d3f43a66e1.png",
     "static/media/Crazy_eight.png": "/static/media/Crazy_eight.6f96fc2d9c9dbf52c19c.png",
+    "static/media/Final_design_light.png": "/static/media/Final_design_light.f73b3064ac35152c1ce8.png",
     "static/media/12.png": "/static/media/12.768903956ec53b098277.png",
+    "static/media/Flyt1.png": "/static/media/Flyt1.f19facc997c05372d500.png",
+    "static/media/Final_design_dark.png": "/static/media/Final_design_dark.2590d0ed99900474526a.png",
     "static/media/Functional_requirements.png": "/static/media/Functional_requirements.a81c850b87fc4e9b50d1.png",
     "static/media/Piano.png": "/static/media/Piano.25382edd43ee9b2b1973.png",
     "static/media/CrazyEight1.png": "/static/media/CrazyEight1.702942aab5ca37ec539d.png",
     "static/media/9.png": "/static/media/9.567cd3b47084b5fae2f7.png",
     "static/media/2.png": "/static/media/2.a590be84b5062bf8438d.png",
     "static/media/CrazyEight2.png": "/static/media/CrazyEight2.14aeb08677c50e7950b1.png",
+    "static/media/Experis_onsker_forside.png": "/static/media/Experis_onsker_forside.be10ce0b5aee9e570f0a.png",
     "static/media/6.png": "/static/media/6.836f739c06a458a7382b.png",
     "static/media/Endelig_design_landingsside.png": "/static/media/Endelig_design_landingsside.e57b05e9d4113f24b142.png",
     "static/media/5.png": "/static/media/5.f726e891b434490d6254.png",
     "static/media/8.png": "/static/media/8.3bf0c73e6e3b3cecb8ff.png",
     "static/media/MapScreen.png": "/static/media/MapScreen.2f0992e0bc6641d4711d.png",
-    "static/media/Design_thinking.png": "/static/media/Design_thinking.bec946272960856f1b77.png",
     "static/media/Affinity_diagram.png": "/static/media/Affinity_diagram.1c13a3a8301acfb0a095.png",
     "static/media/7.png": "/static/media/7.ecf3e8b88f53519ba394.png",
     "static/media/AtomicUX.png": "/static/media/AtomicUX.46bdb4d043001d4f3019.png",
@@ -67,6 +68,7 @@
     "static/media/Prototyping.png": "/static/media/Prototyping.f18c79eba13d2a88cf34.png",
     "static/media/Low_fi1.png": "/static/media/Low_fi1.10975a542123023722ca.png",
     "static/media/AvspillingPiano.png": "/static/media/AvspillingPiano.68da8937ab81501a8b19.png",
+    "static/media/Design_thinking.png": "/static/media/Design_thinking.c08257f00d6d0b8549fa.png",
     "static/media/Skumring.png": "/static/media/Skumring.ee1fd5c22ec0d14ebd10.png",
     "static/media/Designsystem1.png": "/static/media/Designsystem1.070d0151ac23ba5825e0.png",
     "static/media/PlasseringPiano.png": "/static/media/PlasseringPiano.bebbcef20b44df72d1ab.png",
@@ -80,11 +82,11 @@
     "static/media/arrow_upward.svg": "/static/media/arrow_upward.8fac1ef4af428f9b013a931d3136e99c.svg",
     "static/media/arrow_upward_skumring.svg": "/static/media/arrow_upward_skumring.625797f7f484aec96246b3e24aaf92b4.svg",
     "static/media/Arrow 3.svg": "/static/media/Arrow 3.74f0824027ae9d73306a7a70deb2f77e.svg",
-    "main.e6b9e9ac.css.map": "/static/css/main.e6b9e9ac.css.map",
-    "main.bd2433f7.js.map": "/static/js/main.bd2433f7.js.map"
+    "main.b92dc555.css.map": "/static/css/main.b92dc555.css.map",
+    "main.4c146625.js.map": "/static/js/main.4c146625.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6b9e9ac.css",
-    "static/js/main.bd2433f7.js"
+    "static/css/main.b92dc555.css",
+    "static/js/main.4c146625.js"
   ]
 }
