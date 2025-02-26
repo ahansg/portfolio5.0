@@ -1,9 +1,7 @@
 import React from "react";
 import "./project.css";
 import "./gridcontainers.css";
-
-import DissimilisWishes from "../../assets/projectAssets/project1/DissimilisWishes.png";
-
+import DissimilisWishes from "../../assets/projectAssets/project1/DissimilisWishes.svg";
 import Arrow from "../../assets/projectAssets/allProjects/Arrow 3.svg";
 import Arrow_upward from "../../assets/projectAssets/allProjects/arrow_upward.svg";
 import { Link } from "react-router-dom";
@@ -13,7 +11,6 @@ const Project1 = () => {
   return (
     <div id="top">
       {/*Top section with image*/}
-
       <div className="top_section">
         <img
           src={DissimilisWishes}
@@ -194,8 +191,6 @@ const Project1 = () => {
           </div>
         </div>
 
-        {/*LINJE TIL DATAINNSAMLING */}
-
         <section id="datainnsamling" className="theme_container">
           <div className="heading_with_arrow">
             <h2 className="level3_headlines">01. Datainnsamling</h2>
@@ -210,9 +205,10 @@ const Project1 = () => {
           <div className="horizontal_line"> </div>
         </section>
 
-        {/*BRUKERINTERVJU*/}
         <div className="project_container">
-          <h1 className="level1_headlines">Brukerintervju</h1>
+          <div className="padding_sectioning">
+            <h1 className="level1_headlines">Brukerintervju</h1>
+          </div>
 
           <div className="padding_sectioning">
             <p className="body_text">
@@ -226,42 +222,43 @@ const Project1 = () => {
             </p>
           </div>
 
-          <h2 className="level2_headlines">Nullpunktsmåling</h2>
           <div className="padding_sectioning">
-            <p className="body_text">
-              I tillegg til brukerintervjuene ble nullpunktsmåling av
-              eksisterende applikasjon et godt utgangspunkt for å se om
-              fremtidig løsning forbedret instruktørenes opplevelse av bruk.
-              Spørsmålene dreide seg om:
-              <br></br>
-              <br></br>
-              <h3 className="section_text_small_bold"> Del 1 </h3>
-              1. Opprett nytt partitur  <br></br>
-              2. Lag åttendedels F- note, åttendedels H-note, punktert D-note,
-              C-akkord og åttendedels G-note <br></br>
-              3. Ta bort Ters på C-akkord <br></br>
-              4. Legg til repetisjon foran  <br></br>
-              5. Endre navn på takten <br></br>
-              6. Rediger takt <br></br>
-              7. Eksporter sangen <br></br>
-              <h3 className="section_text_small_bold"> Del 2 </h3>
-              1. Lag en ny gruppe <br></br>
-              2. Legg til tre sanger i gruppen <br></br>
-              3. Finn en eksisterede gruppe <br></br>
-              4. Dupliser en eksisterende sang<br></br>
-            </p>
+            <h2 className="level2_headlines">Nullpunktsmåling</h2>
           </div>
+          <p className="body_text">
+            I tillegg til brukerintervjuene ble nullpunktsmåling av eksisterende
+            applikasjon et godt utgangspunkt for å se om fremtidig løsning
+            forbedret instruktørenes opplevelse av bruk. Spørsmålene dreide seg
+            om:
+            <br></br>
+            <br></br>
+            <h3 className="section_text_small_bold"> Del 1 </h3>
+            1. Opprett nytt partitur  <br></br>
+            2. Lag åttendedels F- note, åttendedels H-note, punktert D-note,
+            C-akkord og åttendedels G-note <br></br>
+            3. Ta bort Ters på C-akkord <br></br>
+            4. Legg til repetisjon foran  <br></br>
+            5. Endre navn på takten <br></br>
+            6. Rediger takt <br></br>
+            7. Eksporter sangen <br></br>
+            <h3 className="section_text_small_bold"> Del 2 </h3>
+            1. Lag en ny gruppe <br></br>
+            2. Legg til tre sanger i gruppen <br></br>
+            3. Finn en eksisterede gruppe <br></br>
+            4. Dupliser en eksisterende sang<br></br>
+          </p>
 
-          <h2 className="level2_headlines">System Usability Scale</h2>
+          <div className="padding_sectioning">
+            <h2 className="level2_headlines">System Usability Scale</h2>
+          </div>
           <section className="body_text">
             Til slutt ble intervjuobjektene bedt om å gjennomføre en SUS (System
             Usability Scale) undersøkelse som gir håndfaste tall på brukernes
             opplevelse av nåværende app. Denne viste at brukerne stort sett var
             fornøyd med funksjonaliteten til appen.
-            <div className="picture_padding_top">
-              <ZoomableImageGallery id="3" />
-              <p className="text_image">0 = ikke fornøyd, 5 = fornøyd</p>
-            </div>
+            <br></br>
+            <ZoomableImageGallery id="3" />
+            <p className="text_image">0 = ikke fornøyd, 5 = fornøyd</p>
           </section>
         </div>
 
@@ -407,18 +404,15 @@ const Project1 = () => {
           </p>
 
           {/* Brukerhistorie plassert utenfor grid */}
-          <div className="grid_placement2">
+          <div className="text_centeralign grid_placement2">
             <div className="picture_padding_bottom">
-              <div className=" text_centeralign user_story_padding">
-                <p className="text_very_small">Brukerhistorie</p>
-                <p className="text_italic">
-                  Som bruker skal jeg kunne få opp et visuelt piano på skjermen
-                  og spille på det og det kommer lyd
-                </p>
-              </div>
+              <p className="text_very_small">Brukerhistorie</p>
+              <p className="text_italic">
+                Som bruker skal jeg kunne få opp et visuelt piano på skjermen og
+                spille på det og det kommer lyd
+              </p>
             </div>
-
-            <ZoomableImageGallery id="6" />
+            <ZoomableImageGallery id="6" className="" />
             <p className="text_image">
               I gammel flyt måtte man for hver note trykke på en tom rute, velge
               noteverdi og tonelengde før man trykket seg videre til neste - det
@@ -428,20 +422,19 @@ const Project1 = () => {
         </div>
 
         {/* Resterende innhold i grid */}
-
         <div className=" project_container">
-          <div className="padding_sectioning_headlines">
+          <div className="grid_placement2  padding_sectioning"></div>
+
+          <div className="padding_sectioning">
             <h1 className="level1_headlines">Prototyping og testing</h1>
           </div>
 
-          <div className="padding_sectioning_headlines">
-            <p className="body_text">
-              {" "}
-              Det var flere faktorer å ta hensyn til ved utforming av pianoet.
-              Vi lagde derfor en liste med egenskaper som vi kunne bruke som
-              retningslinjer for endelig design.{" "}
-            </p>
-          </div>
+          <p className="body_text">
+            {" "}
+            Det var flere faktorer å ta hensyn til ved utforming av pianoet. Vi
+            lagde derfor en liste med egenskaper som vi kunne bruke som
+            retningslinjer for endelig design.{" "}
+          </p>
 
           {/*Grid with the different findings*/}
 
@@ -501,9 +494,7 @@ const Project1 = () => {
             to oktaver ga dem mulighet til å skrive flere sanger.
           </p>
         </div>
-        <div className="picture_inline picture_padding_top">
-          <ZoomableImageGallery id="7" className=" image_center" />
-        </div>
+        <ZoomableImageGallery id="7" className=" image_center" />
 
         <div className=" project_container project-margin-between-items">
           <h2 className="level2_headlines">2. Avspilling av piano</h2>
@@ -515,9 +506,7 @@ const Project1 = () => {
             vi for design tre.
           </p>
         </div>
-        <div className="picture_inline picture_padding_top">
-          <ZoomableImageGallery id="8" className=" image_center" />
-        </div>
+        <ZoomableImageGallery id="8" className=" image_center" />
 
         <div className=" project_container project-margin-between-items ">
           <h2 className="level2_headlines">3. Plassering og endelig design</h2>
@@ -529,7 +518,7 @@ const Project1 = () => {
             den legge seg på bunnen av siden (spesielt hendig for Ipad brukere)
           </p>
         </div>
-        <div className="picture_inline picture_padding_top grid-container2-image">
+        <div className="grid-container2-image">
           <ZoomableImageGallery id="9" />
           <ZoomableImageGallery id="10" />
         </div>
@@ -564,7 +553,7 @@ const Project1 = () => {
           </p>
 
           {/* Brukerhistorie plassert utenfor grid */}
-          <div className="user_story_padding text_centeralign grid_placement2">
+          <div className="text_centeralign grid_placement2">
             <p className="text_very_small">Brukerhistorie</p>
             <p className="text_italic">
               Som instruktør kan jeg bruke presentasjonsmodus som et
@@ -622,15 +611,17 @@ const Project1 = () => {
         </div>
 
         <div className="project_container  project-margin-between-items">
-          <h2 className="level2_headlines">
-            1. Navigering til presentasjonsmodus
-          </h2>
+          <div className="padding_sectioning">
+            <h2 className="level2_headlines">
+              1. Navigering til presentasjonsmodus
+            </h2>
+          </div>
           <p className="body_text">
             Tilgang til presentasjonsmodus viste seg å være mest intuitiv å ha
             på partitursiden. På den måten fikk man lett tilgang til å se sangen
             man ønsket å presentere ved å trykke på knappen i høyre hjørne.
           </p>
-          <div className=" grid_placement2 picture_padding_top">
+          <div className="project_container-image grid_placement2">
             <ZoomableImageGallery id="11" />
           </div>
         </div>
@@ -651,15 +642,34 @@ const Project1 = () => {
             hovedfunksjonaliteten - visning av partituret.
           </p>
         </div>
-        <div className="picture_inline picture_padding_top">
-          <ZoomableImageGallery id="12" />
-        </div>
+        <ZoomableImageGallery id="12" className="project_image" />
+
         <div className=" project_container  project-margin-between-items">
           <h2 className="level2_headlines">3. Endelig design</h2>
         </div>
 
-        <div className="picture_inline picture_padding_top">
+        <div className="image_container">
           <ZoomableImageGallery id="13" className="project_image" />
+        </div>
+
+        <div className=" project_container  project-margin-between-items">
+          <h1 className="level1_headlines  project-margin-between-items">
+            Implementert design i appen
+          </h1>
+        </div>
+
+        <h2 className="level2_headlines  project-margin-between-items">
+          Rask tilgang mellom stemmer og sanger
+        </h2>
+        <div className="image_container">
+          <ZoomableImageGallery id="14" className="project_image" />
+        </div>
+        <h2 className="level2_headlines  project-margin-between-items">
+          Navigering mellom noter
+        </h2>
+
+        <div className="image_container">
+          <ZoomableImageGallery id="15" className="project_image" />
         </div>
 
         {/*SANGTEKST*/}
@@ -690,7 +700,7 @@ const Project1 = () => {
           </p>
 
           {/* Brukerhistorie plassert utenfor grid */}
-          <div className="text_centeralign grid_placement2 user_story_padding">
+          <div className="text_centeralign grid_placement2">
             <p className="text_very_small">Brukerhistorie</p>
             <p className="text_italic">
               Som instruktør skal jeg ha tilgang til sangtekst for å kunne
@@ -756,16 +766,14 @@ const Project1 = () => {
             tekstinputfeltet så lite distraherende som mulig på
           </p>
         </div>
-        <div className=" picture_padding_top picture_inline">
-          <ZoomableImageGallery id="16" className="project_image" />
-        </div>
+
+        <ZoomableImageGallery id="16" className="project_image" />
 
         <div className=" project_container  project-margin-between-items">
           <h2 className="level2_headlines">2. Videreutvikling</h2>
         </div>
-        <div className=" picture_padding_top picture_inline">
-          <ZoomableImageGallery id="17" className="project_image" />
-        </div>
+
+        <ZoomableImageGallery id="17" className="project_image" />
       </div>
 
       <div className="button_container theme_container">

@@ -15,11 +15,7 @@
 
 /*Padding mellom de forskjellige tekstdelene*/
 .padding_sectioning {
-  margin-bottom: 60px;
-}
-
-.padding_sectioning_headlines {
-  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /*Padding under og over hver del 01,02,03 osv.*/
@@ -28,29 +24,11 @@
   padding-bottom: 100px;
 }
 
-.user_story_padding {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.button_padding_top_bottom {
-  padding-bottom: 50px;
-}
-
 /*BILDER*/
 /*padding rundt bilder*/
-
-.picture_inline {
-  margin-inline-start: 5%;
-}
 .picture_padding {
-  /*Padding rundt bildene på høyre side av siden (med tekst under)*/
-  padding-top: 30px;
+  padding-top: 2px;
   padding-bottom: 80px;
-}
-
-.picture_padding_top {
-  padding-top: 30px;
 }
 
 .picture_padding_bottom {
@@ -62,10 +40,6 @@
   padding-bottom: 60px;
 }
 
-.image_right_margin {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
 /*Prosjektets inndeling i to rader nedover*/
 .project_container {
   display: grid;
@@ -261,7 +235,7 @@
   font-style: italic;
   color: var(--title-color);
   font-size: var(--smaller-font-size);
-  max-width: 900px;
+  max-width: 700px;
 }
 
 /*Uthevet tekst brukt i rutenettene*/
