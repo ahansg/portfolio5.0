@@ -74,7 +74,8 @@ import MyLocations_add from "../../assets/projectAssets/project2/MyLocations_add
 import InformationPage from "../../assets/projectAssets/project2/InformationPage.png";
 import Settings from "../../assets/projectAssets/project2/Settings.png";
 import Flow1 from "../../assets/projectAssets/project2/Flow1.png";
-
+import Flyt1 from "../../assets/projectAssets/project2/Flyt1.png";
+import Flyt2 from "../../assets/projectAssets/project2/Flyt2.png";
 const ImageMenu = [
   /*PROJECT 1 - BRUKERNES ØNSKER (EXPERIS) */
 
@@ -136,6 +137,8 @@ const ImageMenu = [
   { id: 40, image: Final_design_dark },
   { id: 41, image: Final_design_light },
   { id: 42, image: Flow1 },
+  { id: 43, image: Flyt1 },
+  { id: 44, image: Flyt2 },
 ];
 
 export default ImageMenu;
