@@ -52,12 +52,32 @@
   justify-items: center; /* Center content horizontally in the grid cells */
 }
 
+.grid-container6 {
+  display: grid;
+  grid-template-columns: 1fr; /* Two equal columns */
+  grid-auto-rows: auto; /* Automatically adjust row height */
+  row-gap: 20px;
+  column-gap: 80px;
+  justify-items: center; /* Center items horizontally within the grid cells */
+  margin: 0 auto;
+  padding-left: 100px; /* Optional: Add padding to prevent content touching edges */
+  padding-right: 100px;
+}
+
 /*BILDER*/
 /*Grid for to bilder*/
 .grid-container2-image {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
+}
+
+.grid-container3-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+  grid-auto-rows: auto; /* Automatically adjust row height */
+  gap: 10px; /* Space between grid items */
+  justify-items: center; /* Center content horizontally in the grid cells */
 }
 
 /*KNAPPER*/

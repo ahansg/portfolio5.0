@@ -76,6 +76,41 @@ import Settings from "../../assets/projectAssets/project2/Settings.png";
 import Flow1 from "../../assets/projectAssets/project2/Flow1.png";
 import Flyt1 from "../../assets/projectAssets/project2/Flyt1.png";
 import Flyt2 from "../../assets/projectAssets/project2/Flyt2.png";
+
+/*PROJECT 5 */
+import ikonplassering from "../../assets/projectAssets/project5/eksempel_ikonplassering.png";
+import knapp from "../../assets/projectAssets/project5/eksempel_knapp.png";
+import knappetype from "../../assets/projectAssets/project5/eksempel_knappetype.png";
+import onsket_state from "../../assets/projectAssets/project5/eksempel_ønsket_state.png";
+import plassering from "../../assets/projectAssets/project5/eksempel_plassering.png";
+import tekst from "../../assets/projectAssets/project5/eksempel_tekst.png";
+import velg_ikon from "../../assets/projectAssets/project5/eksempel_velg_ikon.png";
+import dropdown1 from "../../assets/projectAssets/project5/endring_dropdown1.png";
+import dropdown2 from "../../assets/projectAssets/project5/endring_dropdown2.png";
+import knapp1 from "../../assets/projectAssets/project5/endring_knapp1.png";
+import knapp2 from "../../assets/projectAssets/project5/endring_knapp2.png";
+import menylinje1 from "../../assets/projectAssets/project5/endring_menylinje1.png";
+import menylinje2 from "../../assets/projectAssets/project5/endring_menylinje2.png";
+import farger from "../../assets/projectAssets/project5/farger.png";
+import partiturside_etter from "../../assets/projectAssets/project5/partiturside_etter.png";
+import partiturside_før from "../../assets/projectAssets/project5/partiturside_før.png";
+import samlede_komponenter1 from "../../assets/projectAssets/project5/samlede_komponenter1.png";
+import samlede_komponenter2 from "../../assets/projectAssets/project5/samlede_komponenter2.png";
+import samlede_komponenter3 from "../../assets/projectAssets/project5/samlede_komponenter3.png";
+import samlede_komponenter4 from "../../assets/projectAssets/project5/samlede_komponenter4.png";
+import samlede_komponenter5 from "../../assets/projectAssets/project5/samlede_komponenter5.png";
+import samlede_komponenter6 from "../../assets/projectAssets/project5/samlede_komponenter6.png";
+import samlede_komponenter7 from "../../assets/projectAssets/project5/samlede_komponenter7.png";
+import samlede_komponenter8 from "../../assets/projectAssets/project5/samlede_komponenter8.png";
+import togglebuttons from "../../assets/projectAssets/project5/togglebuttons.png";
+import togglebuttons3 from "../../assets/projectAssets/project5/togglebuttons3.png";
+import togglebuttons4 from "../../assets/projectAssets/project5/togglebuttons4.png";
+import typografi_font from "../../assets/projectAssets/project5/typografi_font.png";
+import typografi_stiler from "../../assets/projectAssets/project5/typografi_stiler.png";
+import typografi_størrelser from "../../assets/projectAssets/project5/typografi_størrelser.png";
+import typografi_verktøylinje from "../../assets/projectAssets/project5/typografi_verktøylinje.png";
+import verktøylinje from "../../assets/projectAssets/project5/vertkøylinje.png";
+
 const ImageMenu = [
   /*PROJECT 1 - BRUKERNES ØNSKER (EXPERIS) */
 
@@ -139,6 +174,41 @@ const ImageMenu = [
   { id: 42, image: Flow1 },
   { id: 43, image: Flyt1 },
   { id: 44, image: Flyt2 },
+
+  /*PROJECT 5 DESIGNSYSTEM - DISSIMILIS */
+
+  { id: 45, image: partiturside_før },
+  { id: 46, image: partiturside_etter },
+  { id: 47, image: farger },
+  { id: 48, image: menylinje1 },
+  { id: 49, image: menylinje2 },
+  { id: 50, image: dropdown1 },
+  { id: 51, image: dropdown2 },
+  { id: 52, image: knapp1 },
+  { id: 53, image: knapp2 },
+  { id: 54, image: verktøylinje },
+  { id: 55, image: typografi_font },
+  { id: 56, image: typografi_stiler },
+  { id: 57, image: typografi_størrelser },
+  { id: 58, image: typografi_verktøylinje },
+  { id: 59, image: togglebuttons },
+  { id: 60, image: togglebuttons3 },
+  { id: 61, image: togglebuttons4 },
+  { id: 62, image: knapp },
+  { id: 63, image: ikonplassering },
+  { id: 64, image: tekst },
+  { id: 65, image: velg_ikon },
+  { id: 66, image: onsket_state },
+  { id: 67, image: knappetype },
+  { id: 68, image: plassering },
+  { id: 69, image: samlede_komponenter1 },
+  { id: 70, image: samlede_komponenter2 },
+  { id: 71, image: samlede_komponenter3 },
+  { id: 72, image: samlede_komponenter4 },
+  { id: 73, image: samlede_komponenter5 },
+  { id: 74, image: samlede_komponenter6 },
+  { id: 75, image: samlede_komponenter7 },
+  { id: 76, image: samlede_komponenter8 },
 ];
 
 export default ImageMenu;
