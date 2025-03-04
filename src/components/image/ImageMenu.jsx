@@ -3,17 +3,12 @@ import DissimilisWishes from "../../assets/projectAssets/project1/DissimilisWish
 import Piano from "../../assets/projectAssets/project1/Piano.png";
 import SystemUsability from "../../assets/projectAssets/project1/SystemUsabilityScale.png";
 import AtomicUX from "../../assets/projectAssets/project1/AtomicUX.png";
-
 import PostIT from "../../assets/projectAssets/project1/PostIT.png";
 import GammelFlyt from "../../assets/projectAssets/project1/GammelFlyt.png";
 import PianoDesign from "../../assets/projectAssets/project1/PianoDesign.png";
 import AvspillingPiano from "../../assets/projectAssets/project1/AvspillingPiano.png";
 import PlasseringPiano from "../../assets/projectAssets/project1/PlasseringPiano.png";
 import EndeligDesign from "../../assets/projectAssets/project1/EndeligDesign.png";
-
-//import PresentasjonsmodusNavigering from "../../assets/projectAssets/project1/PresentasjonsmodusNavigering.png";
-
-// import PresModusDesign from "../../assets/projectAssets/project1/PresModusDesign.png";
 
 import PresentasjonsmodusNavigering from "../../assets/projectAssets/project1/PresentasjonsmodusNavigering.svg";
 import PresModusDesign from "../../assets/projectAssets/project1/PresModusDesign.png";
@@ -38,11 +33,7 @@ import CrazyEight2 from "../../assets/projectAssets/project4/CrazyEight2.png";
 import Endelig_design_landingsside from "../../assets/projectAssets/project4/Endelig_design_landingsside.png";
 
 /*PROJECT 2 */
-
-// import Skumring_hoved from "../../assets/projectAssets/project2/Skumring_hoved.png";
-
 import Skumring_hoved from "../../assets/projectAssets/project2/Skumring_hoved.svg";
-
 import Design_thinking from "../../assets/projectAssets/project2/Design_thinking.png";
 import Group_interview from "../../assets/projectAssets/project2/Group_interview.png";
 import Affinity_diagram from "../../assets/projectAssets/project2/Affinity_diagram.png";
@@ -52,27 +43,11 @@ import Low_fi1 from "../../assets/projectAssets/project2/Low_fi1.png";
 import Low_fi2 from "../../assets/projectAssets/project2/Low_fi2.png";
 import Low_fi3 from "../../assets/projectAssets/project2/Low_fi3.png";
 import Low_fi4 from "../../assets/projectAssets/project2/Low_fi4.png";
-import Hjemmeside from "../../assets/projectAssets/project2/hjemmeside.png";
-import Kart_og_listeside from "../../assets/projectAssets/project2/kart-og-listeside.png";
-import Mer_info from "../../assets/projectAssets/project2/mer info.png";
-import Mine_lokasjoner from "../../assets/projectAssets/project2/mine-lokasjoner.png";
-import Info from "../../assets/projectAssets/project2/info.png";
-import Instillinger from "../../assets/projectAssets/project2/instillinger.png";
 import Flyt_2 from "../../assets/projectAssets/project2/Flyt_2.png";
 import Brukertest from "../../assets/projectAssets/project2/brukertest.png";
 import Final_design_dark from "../../assets/projectAssets/project2/Final_design_dark.png";
 import Final_design_light from "../../assets/projectAssets/project2/Final_design_light.png";
 
-import HomeScreen from "../../assets/projectAssets/project2/HomeScreen.png";
-import MapListScreen from "../../assets/projectAssets/project2/MapListScreen.png";
-import MoreInfoScreen from "../../assets/projectAssets/project2/MoreInfoScreen.png";
-import MapScreen from "../../assets/projectAssets/project2/MapScreen.png";
-import ListScreen from "../../assets/projectAssets/project2/ListScreen.png";
-
-import MyLocations from "../../assets/projectAssets/project2/MyLocations.png";
-import MyLocations_add from "../../assets/projectAssets/project2/MyLocations_add.png";
-import InformationPage from "../../assets/projectAssets/project2/InformationPage.png";
-import Settings from "../../assets/projectAssets/project2/Settings.png";
 import Flow1 from "../../assets/projectAssets/project2/Flow1.png";
 import Flyt1 from "../../assets/projectAssets/project2/Flyt1.png";
 import Flyt2 from "../../assets/projectAssets/project2/Flyt2.png";

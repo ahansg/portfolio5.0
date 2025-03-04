@@ -1,12 +1,8 @@
 import React from "react";
 import "./project.css";
 import "./gridcontainers.css";
-
 import Desingsystem from "../../assets/projectAssets/project5/desingsystem_forside.png";
-
-import Arrow from "../../assets/projectAssets/allProjects/Arrow 3.svg";
 import Arrow_upward from "../../assets/projectAssets/allProjects/arrow_upward.svg";
-import { Link } from "react-router-dom";
 import ZoomableImageGallery from "../image/ZoomableImageGallery";
 import Arrow_down from "../../assets/projectAssets/arrow_down.svg";
 import Arrow_side from "../../assets/projectAssets/Arrow_side.svg";

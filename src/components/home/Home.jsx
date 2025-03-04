@@ -1,10 +1,7 @@
 import React from "react";
 import "./home.css";
-import Social from "./Social";
-import Data from "./Data";
 import ScrollDown from "./ScrollDown";
 import Portfolio from "../portfolio/Portfolio";
-import PlaneAnimation from "../home/PlaneAnimation";
 
 const Home = () => {
   return (

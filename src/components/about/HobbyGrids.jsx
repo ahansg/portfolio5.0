@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import two from "../../assets/hobbyAssets/2.png";
 import three from "../../assets/hobbyAssets/3.png";
-import four from "../../assets/hobbyAssets/4.png";
 import five from "../../assets/hobbyAssets/5.png";
 import six from "../../assets/hobbyAssets/6.png";
 import seven from "../../assets/hobbyAssets/7.png";

@@ -3,10 +3,7 @@ import "./project.css";
 import "./gridcontainers.css";
 import Skumring_hoved from "../../assets/projectAssets/project2/Skumring_hoved.svg";
 import ZoomableImageGallery from "../image/ZoomableImageGallery";
-
-import Arrow from "../../assets/projectAssets/allProjects/Arrow 3.svg";
 import Arrow_upward from "../../assets/projectAssets/allProjects/arrow_upward_skumring.svg";
-import { Link } from "react-router-dom";
 
 const Project2 = () => {
   return (
