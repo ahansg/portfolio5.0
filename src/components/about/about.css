@@ -1,3 +1,8 @@
+.about_margin_top {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
 .about_container {
   display: grid;
   grid-template-columns: 2fr 1fr; /* Two equal columns */
@@ -16,7 +21,8 @@
   justify-self: center;
   width: 300px;
   height: 300px;
-  animation: profile__animate 8s ease-in-out infinite 1s;
+  animation: profile__animate 8s ease-in-out infinite;
+  animation-fill-mode: both;
 }
 
 @keyframes profile__animate {

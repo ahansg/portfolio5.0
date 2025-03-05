@@ -4,8 +4,6 @@ const Social = () => {
   return (
     <div>
       <div className="home__social__grid">
-        <p className="body_text">Ta gjerne kontakt</p>
-
         <div className="home__social">
           <a
             href="https://www.linkedin.com/in/anna-hansg%C3%A5rd-8a3296253/"

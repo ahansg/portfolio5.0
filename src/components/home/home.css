@@ -1,3 +1,37 @@
+.home_font {
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-size: var(--bigger-font-size);
+  font-weight: var(--font-medium);
+  font-family: var(--home-font);
+  color: var(--title-color-dark);
+}
+
+.home_font_small {
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-size: var(--h2-font-size);
+  font-weight: var(--normal-font-size);
+  font-family: var(--home-font);
+}
+
+.home_margin_top {
+  margin-top: 140px;
+  margin-bottom: 200px;
+}
+
+.home_center {
+  text-align: center;
+}
+
+.small_padding {
+  padding-top: 100px;
+}
+
+.home_padding_bottom {
+  padding-bottom: 150px;
+}
+
 .home__container {
   row-gap: 7rem;
 }

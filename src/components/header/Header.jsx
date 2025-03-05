@@ -42,16 +42,6 @@ const Header = () => {
 
             <li className="nav__item">
               <NavLink
-                to="/portfolio"
-                className="nav__link"
-                activeClassName="active-link"
-              >
-                PORTEFØLJE
-              </NavLink>
-            </li>
-
-            <li className="nav__item">
-              <NavLink
                 to="mailto:anna_hansgaard@hotmail.com"
                 className="nav__link"
                 activeClassName="active-link"

@@ -7,39 +7,33 @@ import Social from "../home/Social";
 
 const About = () => {
   return (
-    <section className="container margin_top" id="about">
-      {/* Main Title */}
-      <h1 className="portfolio_title">Anna Hansgård</h1>
-
+    <section className="container about_margin_top" id="about">
       <div className="about_container">
         {/* About Description */}
-        <div className="about__data">
+        <div className="">
           <p className="body_text">
-            Hei! Jeg er en ferdigutdannet interaksjonsdesigner fra Universitetet
-            i Oslo (høsten 2024) med bakgrunn som sykepleier. Denne
-            kombinasjonen har gitt meg en unik evne til å forstå og designe for
-            menneskers behov, med et sterkt fokus på brukervennlige og intuitive
-            løsninger. Nå ser jeg etter en heltidsstilling som
-            interaksjonsdesigner.
-            <br />
-            <br />
-            Som person er jeg nysgjerrig, kreativ og alltid på jakt etter nye
-            måter å forbedre opplevelser på. Samtidig er jeg analytisk og
-            målrettet, og liker å finne praktiske løsninger som skaper verdi.
-            Min erfaring som sykepleier har lært meg viktigheten av empati og
-            kommunikasjon, noe jeg tar med meg i designarbeidet mitt. Overgangen
-            til UX-design var drevet av et ønske om å kombinere kreativitet med
-            problemløsning, og å bidra til å forbedre livene til brukerne
-            gjennom gode digitale løsninger.
-            <br />
-            <br />
-            På fritiden liker jeg å utfordre meg selv med koding - denne
-            porteføljen er laget i HTML, CSS og JavaScript. I tillegg driver jeg
-            med digital illustrasjon, maling og tegning, og setter pris på en
-            god bok akkompagnert av rolig jazz eller indie-musikk. Jeg elsker
-            også å tilbringe tid med venner og utforske nye smaksopplevelser.
-            Jeg gleder meg til å bidra med innsikt, kreativitet og engasjement
-            til nye prosjekter!"
+            Hei!
+            <br></br>
+            <br></br>
+            Jeg er en nyutdannet interaksjonsdesigner fra Universitetet i Oslo
+            (høsten 2024) med en bakgrunn som sykepleier. Interessen for design
+            og kreativitet har fulgt meg hele livet -fra å tegne og male i
+            oppveksten til å utforske digitale løsninger i dag.
+            <br></br>
+            <br></br>
+            Overgangen til UX-design kom naturlig etter flere år i helsevesenet,
+            hvor jeg så hvor avgjørende brukervennlige digitale systemer er for
+            både pasienter og helsepersonell. Nå kombinerer jeg min empati og
+            problemløsningskompetanse fra sykepleien med min lidenskap for
+            design. På den måten håper jeg å skape løsninger som er både
+            intuitive og estetisk tiltalende. Ingenting gir meg mer glede enn å
+            se brukere samhandle sømløst med produktene jeg har designet.
+            <br></br>
+            <br></br>
+            På fritiden maler jeg fremdeles, men jeg liker også å utfordre meg
+            selv med koding og utforske nye kreative uttrykk. Jeg elsker å
+            samarbeide, lære nye ting og bidra til meningsfulle prosjekter. Jeg
+            gleder meg til nye utfordringer i årene som kommer.
           </p>
 
           {/* Download CV Button */}

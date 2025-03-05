@@ -36,22 +36,24 @@ const Portfolio = () => {
   return (
     <div>
       {/* Kortene */}
-      <section className=" container  margin_top">
-        <h2 className="portfolio_title">Et utvalg av mine prosjekter</h2>
-
+      <section className=" container  margin_top ">
         {/* Knapper for kategorifilter */}
-        <div className="category_button_container padding_sectioning">
-          {categories.map((category, index) => (
-            <button
-              key={index}
-              className={`category-button ${
-                activeCategory === category ? "active" : ""
-              }`} // Legg til 'active'-klassen hvis dette er den aktive kategorien
-              onClick={() => filterItems(category)} // Kaller filterfunksjonen
-            >
-              {category}
-            </button>
-          ))}
+
+        <div className="category_button_container portfolio_padding_bottom">
+          <h2 className="portfolio_title">PROSJEKTER</h2>
+          <div className="button_wrapper">
+            {categories.map((category, index) => (
+              <button
+                key={index}
+                className={`category-button ${
+                  activeCategory === category ? "active" : ""
+                }`}
+                onClick={() => filterItems(category)}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
         </div>
 
         <div className="work_container">

@@ -7,47 +7,60 @@
   margin-bottom: 200px;
 }
 
+.portfolio_center {
+  text-align: center;
+}
+
+.portfolio_start {
+  text-align: start;
+}
+
+.portfolio_padding_bottom {
+  padding-bottom: 20px;
+}
+
 /* BUTTONS */
+
 .category_button_container {
   display: flex;
-  gap: 15px;
+  justify-content: space-between; /* Plasserer "PROSJEKTER" til venstre og knappene til høyre */
+  align-items: center; /* Sørger for at de er på samme linje vertikalt */
+  width: 100%;
 }
 
 .category-button {
   padding: 10px 25px;
   font-size: var(--normal-font-size);
   border: 1px solid #000000;
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: transparent;
   color: #000000;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+  font-family: var(--home-font);
 }
 
 .category-button:hover {
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.2
-  ); /* Svart bakgrunn med 50% opasitet ved hover */
-  color: #000000; /* Hvit tekstfarge ved hover */
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #000000;
 }
 
 .category-button:active {
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Svart bakgrunn med 50% opasitet ved hover */
-  color: #000000; /* Hvit tekstfarge ved hover */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #000000;
   transform: scale(0.95);
 }
 
 .project_margin_container {
   margin-inline-start: 10%;
   margin-inline-end: 10%;
+}
+
+.button_wrapper {
+  display: flex;
+  gap: 15px; /* Gir litt avstand mellom knappene */
+  justify-content: flex-end; /* Sørger for at knappene er på høyre side */
+  flex: 1; /* Gir plass til knappene på høyre side */
 }
 
 /*rekkefølgen til kortene og sentrert*/
@@ -184,13 +197,13 @@
 }
 
 .portfolio_title {
-  color: #004b39;
-  font-size: var(--big-font-size);
-  font-family: var(--portfolio-font), serif; /* Bruk fonten DM Serif Text */
-  margin: 0;
-  padding-top: 80px;
+  color: #2a2a2a;
+  font-size: var(--h3-font-size);
+  font-family: var(--portfolio-font), serif;
   font-weight: var(--font-normal);
-  padding-bottom: 60px;
+  margin: 0;
+  text-align: left; /* Justerer teksten til venstre */
+  flex: 1; /* Får "PROSJEKTER" til å ta opp all tilgjengelig plass på venstre side */
 }
 
 .work_subtitle {

@@ -1,6 +1,4 @@
-/* Juster import for DM Serif Text */
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 /*===========VARIABLE CSS ============*/
 :root {
   --header-height: 3rem;
@@ -19,8 +17,11 @@
   /*=======Font and typography=========*/
   --body-font: "Montserrat", sans-serif;
   --portfolio-font: "DM Serif Text", sans-serif;
+  --home-font: "Playfair Display", serif;
+  --roboto-font: "Roboto", serif;
 
   /*.5rem = 8px | 1rem = 16px...*/
+  --bigger-font-size: 4rem;
   --big-font-size: 3.5rem;
   --medium-font-size: 3rem;
   --h1-font-size: 2.25rem;
