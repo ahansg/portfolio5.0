@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/annahans.no/static/css/main.5888acad.css",
-    "main.js": "/annahans.no/static/js/main.099f4356.js",
+    "main.css": "/annahans.no/static/css/main.995462b5.css",
+    "main.js": "/annahans.no/static/js/main.64e40c03.js",
     "static/media/Flow1.png": "/annahans.no/static/media/Flow1.3eadb8f8eb17f18348c9.png",
     "static/media/Skumring_hoved.svg": "/annahans.no/static/media/Skumring_hoved.0705ae49a2d953fda4787c0c32754e3c.svg",
     "static/media/anna.jpg": "/annahans.no/static/media/anna.b820b215f1f00f4a85e0.jpg",
@@ -97,11 +97,11 @@
     "static/media/arrow_upward.svg": "/annahans.no/static/media/arrow_upward.8fac1ef4af428f9b013a931d3136e99c.svg",
     "static/media/arrow_upward_skumring.svg": "/annahans.no/static/media/arrow_upward_skumring.625797f7f484aec96246b3e24aaf92b4.svg",
     "static/media/Arrow 3.svg": "/annahans.no/static/media/Arrow 3.74f0824027ae9d73306a7a70deb2f77e.svg",
-    "main.5888acad.css.map": "/annahans.no/static/css/main.5888acad.css.map",
-    "main.099f4356.js.map": "/annahans.no/static/js/main.099f4356.js.map"
+    "main.995462b5.css.map": "/annahans.no/static/css/main.995462b5.css.map",
+    "main.64e40c03.js.map": "/annahans.no/static/js/main.64e40c03.js.map"
   },
   "entrypoints": [
-    "static/css/main.5888acad.css",
-    "static/js/main.099f4356.js"
+    "static/css/main.995462b5.css",
+    "static/js/main.64e40c03.js"
   ]
 }

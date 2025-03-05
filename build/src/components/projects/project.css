@@ -269,13 +269,6 @@
   line-height: 1.5;
 }
 
-.body_text_large {
-  font-size: var(--h3-font-size);
-  margin-bottom: 20px;
-  color: #000;
-  line-height: 1.5;
-}
-
 /*Liten, tykk tekst til overskrift over body-tekst */
 .section_text_small_bold {
   font-size: var(--normal-font-size);

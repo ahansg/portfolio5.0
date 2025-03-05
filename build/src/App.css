@@ -178,12 +178,12 @@ img {
 
 .button_icon {
   margin-left: var(--mb-0-5);
-  margin-left: 8px;
 }
 
 .button--flex {
   display: inline-flex;
   align-items: center;
+  gap: 8px;
 }
 
 /*===========BREAKPOINTS ============*/
