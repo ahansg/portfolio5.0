@@ -127,9 +127,9 @@
   padding: 10px 25px;
   font-size: var(--normal-font-size);
   color: var(--title-color);
-  border: 1px solid #000000;
+  border: 1px solid #8384ac;
   background-color: transparent; /* Gjør bakgrunnen gjennomsiktig */
-  border-radius: 25px;
+  border-radius: 15px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -139,7 +139,7 @@
     0,
     0,
     0,
-    0.2
+    0.1
   ); /* Svart bakgrunn med 50% opasitet ved hover */
   color: #000000; /* Hvit tekstfarge ved hover */
 }
@@ -147,31 +147,31 @@
 .button {
   padding: 10px 25px;
   font-size: var(--normal-font-size);
-  background-color: #4227b9;
+  background-color: #1a1d57;
   color: #fff;
-  border: 1px solid #4227b9;
-  border-radius: 25px;
+  border: 1px solid #1a1d57;
+  border-radius: 15px;
   cursor: pointer;
-  transition: #4227b9 0.3s ease;
+  transition: #1a1d57 0.3s ease;
 }
 
 .button_skumring {
   padding: 10px 25px;
   font-size: var(--normal-font-size);
-  background-color: #003ca3;
+  background-color: #1a1d57;
   color: #fff;
-  border: 1px solid #003ca3;
+  border: 1px solid #1a1d57;
   border-radius: 25px;
   cursor: pointer;
-  transition: #003ca3 0.3s ease;
+  transition: #1a1d57 0.3s ease;
 }
 
 .button_skumring:hover {
-  background-color: #00296f;
+  background-color: #3b3d7b;
 }
 
 .button:hover {
-  background-color: #2b197e;
+  background-color: #3b3d7b;
 }
 
 .heading_with_arrow {

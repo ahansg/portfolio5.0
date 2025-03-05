@@ -35,6 +35,7 @@
   font-weight: var(--font-medium);
   transition: 0.3s;
   background: none; /* Fjern bakgrunnsfarge for button */
+  color: #1a1d57;
 }
 
 .nav__close,
@@ -48,7 +49,7 @@
 }
 
 .nav__link:hover {
-  color: rgb(1, 109, 217);
+  color: #4d57b3;
 }
 
 /*===========BREAKPOINTS ============*/

@@ -1,10 +1,14 @@
 .about_margin_top {
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 200px;
 }
 
 .about_image_margin {
   margin-top: 50px;
+}
+
+.about_image_margin2 {
+  margin-top: 80px;
 }
 
 .about_container {
@@ -61,9 +65,10 @@
   margin-bottom: var(--mb-0-5);
 }
 
-.about__title {
-  font-size: var(--small-font-size);
-  font-weight: var(--font-medium);
+.about_title {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
+  font-family: var(--home-font);
 }
 
 .about__subtitle {

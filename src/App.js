@@ -16,28 +16,23 @@ import Project3 from "./components/projects/Project3";
 import Project4 from "./components/projects/Project4";
 import Project5 from "./components/projects/Project5";
 
+// Komponent for å håndtere scroll til toppen ved ruteendring
 const ScrollToTop = () => {
-  const location = useLocation();
+  const location = useLocation(); // Dette fungerer nå fordi vi er innenfor Router
 
   useEffect(() => {
-    // Set scroll position to top immediately on route change
+    // Når ruten endres, ruller vi automatisk til toppen
     window.scrollTo(0, 0);
-  }, [location]); // Triggers on every route change
+  }, [location]); // Når location endres (ny rute), vil vi rulle til toppen
 
-  return null; // This component does nothing except handling scroll
+  return null;
 };
 
 const App = () => {
-  useEffect(() => {
-    // Disable automatic scroll restoration in the browser
-    window.history.scrollRestoration = "manual";
-  }, []);
-
   return (
     <Router>
+      <ScrollToTop /> {/* Denne linjen håndterer scroll til toppen */}
       <Header />
-      {/* ScrollToTop ensures the page is always at the top on route changes */}
-      <ScrollToTop />
       <main className="main">
         <Routes>
           <Route path="/" element={<Home />} />

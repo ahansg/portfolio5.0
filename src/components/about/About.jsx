@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./about.css";
 import CV from "../../assets/aboutAssets/CV.pdf";
 import AboutImg from "../../assets/aboutAssets/anna.jpg";
@@ -6,30 +6,32 @@ import HobbyGrids from "./HobbyGrids";
 import Social from "../home/Social";
 
 const About = () => {
+  // Bruk useEffect for å sette scrollposisjonen til toppen ved lasting av komponenten
   return (
     <section className="container about_margin_top" id="about">
       <div className="about_container">
         {/* About Description */}
-        <div className="">
+        <div>
+          <h1 className="about_title"> Litt om meg </h1>
           <p className="body_text">
-            Hei!
-            <br></br>
-            <br></br>
-            Jeg er en nyutdannet interaksjonsdesigner fra Universitetet i Oslo
-            (høsten 2024) med en bakgrunn som sykepleier. Interessen for design
-            og kreativitet har fulgt meg hele livet -fra å tegne og male i
-            oppveksten til å utforske digitale løsninger i dag.
-            <br></br>
-            <br></br>
+            <br />
+            <br />
+            Jeg heter Anna og er en nyutdannet interaksjonsdesigner fra
+            Universitetet i Oslo (høsten 2024). Jeg har jobbet som sykepleier i
+            mange år, men interessen for design og kreativitet har fulgt meg
+            hele livet. Fra å tegne og male i oppveksten til å utforske digitale
+            løsninger i dag.
+            <br />
+            <br />
             Overgangen til UX-design kom naturlig etter flere år i helsevesenet,
             hvor jeg så hvor avgjørende brukervennlige digitale systemer er for
-            både pasienter og helsepersonell. Nå kombinerer jeg min empati og
-            problemløsningskompetanse fra sykepleien med min lidenskap for
-            design. På den måten håper jeg å skape løsninger som er både
-            intuitive og estetisk tiltalende. Ingenting gir meg mer glede enn å
-            se brukere samhandle sømløst med produktene jeg har designet.
-            <br></br>
-            <br></br>
+            både pasienter og helsepersonell. Nå ønsker jeg å kombinere det jeg
+            har lært fra sykepleien med min lidenskap for design. På den måten
+            håper jeg å skape løsninger som er både intuitive for flest mulig og
+            samtidig estetisk tiltalende. Ingenting gir meg mer glede enn å se
+            brukere samhandle sømløst med produktene jeg har designet.
+            <br />
+            <br />
             På fritiden maler jeg fremdeles, men jeg liker også å utfordre meg
             selv med koding og utforske nye kreative uttrykk. Jeg elsker å
             samarbeide, lære nye ting og bidra til meningsfulle prosjekter. Jeg
@@ -37,7 +39,18 @@ const About = () => {
           </p>
 
           {/* Download CV Button */}
-          <a download="Anna_CV.pdf" href={CV} className="button button--flex">
+        </div>
+
+        {/* About Image */}
+        <div className="">
+          <div className="container grid about_image_margin">
+            <img className="about__img" src={AboutImg} alt="Anna Hansgård" />
+          </div>
+          <a
+            download="Anna_CV.pdf"
+            href={CV}
+            className="button button--flex about_image_margin2"
+          >
             Last ned CV
             <svg
               className="button__icon"
@@ -67,12 +80,10 @@ const About = () => {
           </a>
         </div>
 
-        {/* About Image */}
-        <div className="container grid about_image_margin">
-          <img className="about__img" src={AboutImg} alt="Anna Hansgård" />
-        </div>
-
-        <h1 className="portfolio_title">Hobby</h1>
+        <h1 className="about_title about_image_margin">
+          Hobby <br />
+          <br />
+        </h1>
       </div>
       <div className="margin_on_sides">
         <HobbyGrids />

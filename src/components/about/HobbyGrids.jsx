@@ -10,6 +10,10 @@ import ten from "../../assets/hobbyAssets/10.png";
 import eleven from "../../assets/hobbyAssets/11.png";
 import twelve from "../../assets/hobbyAssets/12.png";
 import "./HobbyGrids.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import left_arrow from "../../assets/left_arrow.png";
+import right_arrow from "../../assets/right_arrow.png";
 
 // Array of images
 const images = [
@@ -65,7 +69,7 @@ const HobbyGrids = () => {
               onClick={() => navigateImage(-1)}
               disabled={modal.index === 0}
             >
-              ←
+              <img src={left_arrow} />
             </button>
             <img
               src={modal.img}
@@ -77,7 +81,7 @@ const HobbyGrids = () => {
               onClick={() => navigateImage(1)}
               disabled={modal.index === images.length - 1}
             >
-              →
+              <img src={right_arrow} />
             </button>
           </div>
         </div>

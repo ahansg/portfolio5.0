@@ -69,13 +69,21 @@
 /* Modal close button */
 .modal-close-btn {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 40px; /* Justerer posisjonen */
+  right: 40px; /* Justerer posisjonen */
   background: none;
   border: none;
   color: white;
-  font-size: 2rem;
+  font-size: 3rem; /* Øker størrelsen på "X" */
+  font-weight: bold;
   cursor: pointer;
+  padding: 10px; /* Gjør klikkområdet større */
+  transition: transform 0.2s ease;
+}
+
+.modal-close-btn:hover {
+  transform: scale(1.2); /* Gjør X-en litt større ved hover */
+  color: #daddf3; /* Valgfritt: Gir en rød hover-effekt */
 }
 
 /* Modal content container */
@@ -109,16 +117,23 @@
   background: rgba(255, 255, 255, 0.8);
   border: none;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   display: flex;
+  padding: 5px; /* Sørger for at pilene ikke blir klippet */
+
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.modal-nav-btn img {
+  width: 45%; /* Juster størrelsen på pilene */
+  height: auto;
 }
 
 .modal-nav-btn:hover {
