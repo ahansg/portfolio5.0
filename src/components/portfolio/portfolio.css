@@ -212,3 +212,9 @@
   font-family: var(--body-font); /* Bruk fonten DM Serif Text */
   margin: 0;
 }
+
+.work_card:hover .work_text,
+.work_card:hover .work_title,
+.work_card:hover .work_subtitle {
+  color: #000000; /* Endrer tekstfargen til svart */
+}

@@ -376,6 +376,8 @@ const Project2 = () => {
             <a
               href="https://www.figma.com/proto/s2DLgTDQRIKmnEzQQH6dNi/High-fi-flow?node-id=1-1652&p=f&t=8nFuRCdqzWN1wwEp-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A1575&show-proto-sidebar=1"
               className="button_container"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <button className="button_skumring grid_placement2">
                 Flyt 1
@@ -390,6 +392,8 @@ const Project2 = () => {
             <a
               href="https://www.figma.com/proto/s2DLgTDQRIKmnEzQQH6dNi/High-fi-flow?node-id=1-341&p=f&t=pykJFnqifyox4vlJ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A341&show-proto-sidebar=1"
               className="button_container grid_placement2"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <button className="button_skumring grid_placement2">
                 Flyt 2
