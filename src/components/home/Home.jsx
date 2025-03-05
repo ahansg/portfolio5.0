@@ -5,6 +5,16 @@ import Portfolio from "../portfolio/Portfolio";
 import Rectangle from "../../assets/Rectangle.png";
 
 const Home = () => {
+  const scrollToPortfolio = () => {
+    const portfolioSection = document.getElementById("portfolio");
+    const headerHeight = document.querySelector("header").offsetHeight; // Hent høyden på headeren
+    const extraPadding = 100; // Legg til ekstra plass (i px) på toppen
+    window.scrollTo({
+      top: portfolioSection.offsetTop - headerHeight - extraPadding, // Juster scroll posisjonen med ekstra padding
+      behavior: "smooth", // Legg til smooth scroll
+    });
+  };
+
   return (
     <>
       <div className="container home_margin_top">
@@ -16,10 +26,18 @@ const Home = () => {
           UX-DESIGNER,<br></br> KUNSTNER, SYKEPLEIER{" "}
         </h3>
         <div className="home_center small_padding home_padding_bottom">
-          <img src={Rectangle} alt="Dissimilis First" className="home_center" />
+          <button onClick={scrollToPortfolio} className="arrow_button">
+            <img
+              src={Rectangle}
+              alt="Scroll Down"
+              className="home_center blinking-arrow"
+            />
+          </button>
         </div>
 
-        <Portfolio />
+        <div id="portfolio">
+          <Portfolio />
+        </div>
       </div>
     </>
   );

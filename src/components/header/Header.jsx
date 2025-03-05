@@ -1,19 +1,40 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom"; // Use NavLink instead of Link
+import { NavLink, useNavigate } from "react-router-dom"; // Importer useNavigate
 import "./header.css";
 
 const Header = () => {
-  /*===========Toggle Menu ============*/
   const [Toggle, showMenu] = useState(false);
+  const navigate = useNavigate(); // Bruk useNavigate for å navigere programmatisk
+
+  // Funksjon for å håndtere scroll til portefølje
+  const scrollToPortfolio = (event) => {
+    event.preventDefault(); // Forhindrer standard navigasjon
+
+    // Naviger til hjemsiden først
+    navigate("/");
+
+    // Rull til portefølje-seksjonen etter at navigeringen er fullført
+    setTimeout(() => {
+      const portfolioSection = document.getElementById("portfolio");
+      if (portfolioSection) {
+        const headerHeight = document.querySelector("header").offsetHeight;
+        const extraPadding = 50;
+        window.scrollTo({
+          top: portfolioSection.offsetTop - headerHeight - extraPadding,
+          behavior: "smooth",
+        });
+      }
+    }, 100); // Vent litt før scrolling for å sikre at navigeringen er fullført
+  };
 
   return (
     <header className="header">
       <nav className="nav container">
         <NavLink
           to="/"
-          exact // Ensure the home route matches exactly
+          exact
           className="nav__link"
-          activeClassName="active-link" // Add active class when this link is active
+          activeClassName="active-link"
         >
           <i className="nav__logo"></i> ANNA HANSGÅRD
         </NavLink>
@@ -38,6 +59,16 @@ const Header = () => {
               >
                 OM MEG
               </NavLink>
+            </li>
+
+            <li className="nav__item">
+              <a
+                href="#portfolio" // Sett href til #portfolio for å indikere at det er en navigasjon til portefølje
+                onClick={scrollToPortfolio} // Bruker scrollToPortfolio for å håndtere scroll-logikken
+                className="nav__link"
+              >
+                PORTEFØLJE
+              </a>
             </li>
 
             <li className="nav__item">

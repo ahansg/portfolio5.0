@@ -3,12 +3,16 @@
   margin-bottom: 200px;
 }
 
+.about_image_margin {
+  margin-top: 50px;
+}
+
 .about_container {
   display: grid;
   grid-template-columns: 2fr 1fr; /* Two equal columns */
   grid-auto-rows: auto; /* Automatically adjust row height */
   justify-items: start; /* Center items horizontally within the grid cells */
-  gap: 50px;
+  gap: 120px;
 }
 
 .about__img {

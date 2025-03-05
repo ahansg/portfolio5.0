@@ -37,7 +37,7 @@
   color: #000000;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
-  font-family: var(--home-font);
+  font-family: var(--body-font);
 }
 
 .category-button:hover {
@@ -199,7 +199,7 @@
 .portfolio_title {
   color: #2a2a2a;
   font-size: var(--h3-font-size);
-  font-family: var(--portfolio-font), serif;
+  font-family: var(--body-font), serif;
   font-weight: var(--font-normal);
   margin: 0;
   text-align: left; /* Justerer teksten til venstre */

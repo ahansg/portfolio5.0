@@ -68,7 +68,7 @@ const About = () => {
         </div>
 
         {/* About Image */}
-        <div className="container grid">
+        <div className="container grid about_image_margin">
           <img className="about__img" src={AboutImg} alt="Anna Hansgård" />
         </div>
 

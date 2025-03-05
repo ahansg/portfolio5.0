@@ -6,7 +6,7 @@ import Veles from "../../assets/portfolioAssets/Veles.png";
 
 const Menu = [
   {
-    id: 1,
+    id: 2,
     image: Brukernes_onsker,
     title: "Brukernes ønsker",
     subtitle: "-Dissimilis fargenotasjonsapp",
@@ -15,7 +15,7 @@ const Menu = [
     style: "#E5E4FF",
   },
   {
-    id: 2,
+    id: 1,
     image: Skumring,
     title: "Skumring",
     subtitle: "-Prosjektoppgave 2024",

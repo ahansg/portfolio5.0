@@ -282,7 +282,7 @@ const Project2 = () => {
         </div>
 
         {/*PRESENTASJONSMODUS*/}
-        <section id="analyse" className="theme_container">
+        <section id="prototyping" className="theme_container">
           <div className="heading_with_arrow">
             <h2 className="level3_headlines_skumring">
               04. Prototyping og testing

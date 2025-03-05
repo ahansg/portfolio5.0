@@ -34,6 +34,7 @@
   color: var(--title-color);
   font-weight: var(--font-medium);
   transition: 0.3s;
+  background: none; /* Fjern bakgrunnsfarge for button */
 }
 
 .nav__close,
